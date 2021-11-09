@@ -1,0 +1,244 @@
+/* size 700 */
+@media (max-width: 700px) {
+  nav ul li {
+    list-style: none;
+    margin: 0 5px;
+  }
+  /* first-section */
+
+  .section1 {
+    height: 659px;
+    position: relative;
+    bottom: 48px;
+  }
+  .sec-right1 {
+    width: 35%;
+    font-family: "Roboto", sans-serif;
+    margin: 0 10px;
+  }
+  .sec-left1 .circle {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(0, 58, 165);
+    border-radius: 50%;
+    transition: box-shadow 0.3s;
+  }
+  .owner-pic {
+    clip-path: circle(53%);
+    transition: transform 0.3s ease-in-out;
+    transition: top 0.7s ease-in-out;
+    position: relative;
+    top: 0;
+    width: 278px;
+  }
+  /* first-section */
+
+  /* section3 */
+  .section3 .cards-sec .cards {
+    width: 455px;
+    height: 455px;
+    margin: 0 5px;
+  }
+  /* section3 */
+
+  /* section4 */
+  .conatainer .card {
+    width: 29%;
+    height: 270px;
+  }
+  .conatainer {
+    position: relative;
+    display: flex;
+    width: 900px;
+    justify-content: center;
+  }
+  .conatainer .card {
+    width: 29%;
+    height: 270px;
+    margin: 0 8px;
+  }
+  /* section4 */
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    position: relative;
+    right: 7px;
+  }
+
+  nav .logo img {
+    width: 50px;
+    height: 47px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  nav ul li button {
+    width: 111%;
+  }
+  /* .section1 */
+  .section1 {
+    display: block;
+  }
+
+  .sec-right1 H1,
+  .sec-right1 h3,
+  .sec-right1 p {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .sec-right1 {
+    width: 50%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .section1 .sec-left1 div {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section1 .sec-left1 div {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 65%;
+  }
+
+  .owner-pic {
+    clip-path: circle(57%);
+    transition: transform 0.3s ease-in-out;
+    transition: top 0.7s ease-in-out;
+    position: relative;
+    top: 0;
+    width: 278px;
+  }
+
+  .sec-left1,
+  .sec-right1 {
+    position: relative;
+    top: 85px;
+  }
+  .section1 {
+    width: 100%;
+    display: block;
+    height: 855px;
+  }
+  /* .section1 */
+
+  /* section3 */
+
+  .section3 {
+    width: 100%;
+    height: 1600px;
+  }
+
+  .section3 .cards-sec {
+    height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    width: 65%;
+  }
+
+  .section3 .cards-sec .cards {
+    width: 455px;
+    height: 455px;
+    margin: 0 5px;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+  }
+  /* section3 */
+
+  .section4 {
+    background: white;
+    height: 1116px;
+  }
+  .section4 .sec4 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 665px;
+    background: white;
+    border-radius: 152px;
+    top: 172px;
+    position: relative;
+    width: 50%;
+  }
+  .conatainer {
+    position: relative;
+    display: block;
+    width: 51%;
+    justify-content: center;
+    margin: auto;
+  }
+  .conatainer .card {
+    width: 299%;
+    height: 270px;
+    margin: 8px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  Nav.sticky {
+    width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+
+  .section1 .sec-left1 div {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 55%;
+  }
+
+  .sec-right1 H1,
+  .sec-right1 h3,
+  .sec-right1 p {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .sec-right1 H1 {
+    font-size: 18px;
+  }
+
+  .owner-pic {
+    clip-path: circle(57%);
+    transition: transform 0.3s ease-in-out;
+    transition: top 0.7s ease-in-out;
+    position: relative;
+    top: 0;
+    width: 168px;
+  }
+
+  .section3 .cards-sec .cards {
+    width: 455px;
+    height: 455px;
+    margin: 0 5px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+  }
+}
