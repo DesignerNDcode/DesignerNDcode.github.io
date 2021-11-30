@@ -243,8 +243,16 @@
   }
   
 /*   Temporary/ till portfolio area is completed */
+  
+  .slide {
+    height: 200px;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
   .slide .card img {
-    width: 125%;
+    width: 100%;
     transition: transform 1s;
     cursor: pointer;
 }
