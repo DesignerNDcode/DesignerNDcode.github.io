@@ -243,4 +243,21 @@
   }
   
 /*   Temporary/ till portfolio area is completed */
+  .slide .card img {
+    width: 125%;
+    transition: transform 1s;
+    cursor: pointer;
+}
+  
+element.style {
+}
+ .slide .card h3{
+    font-size: 15px;
+}
+  
+.card span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 75%;
+}
 }
