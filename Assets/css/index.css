@@ -231,8 +231,8 @@ p {
 }
 .slide-track {
   display: flex;
-  width: calc(250px * 12);
-  animation: scroll 40s linear infinite;
+  width: calc(250px * 2);/*temporary not 12 till completion of portfolio */
+animation: scroll 40s linear infinite; /*temporary off till completion of portfolio */
 }
 
 .slide-track:hover {
