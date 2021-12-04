@@ -232,8 +232,8 @@ a{
   place-items: center;
   overflow: hidden;
   height: 646px;
-  position:relative;
-  top:140;
+  position: relative;
+    top: 140px;
 }
 .slide-track {
   display: flex;
